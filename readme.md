@@ -8,7 +8,7 @@ Yea this one is Jassy
 here for Python Full stack
 
 yo this one is Bullshit
-for Ai & fullstack
+for Ai & fullstack and all
 
 
 
