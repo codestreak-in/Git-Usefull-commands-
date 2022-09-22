@@ -141,12 +141,51 @@
     repository (git fetch) and immediately applies the latest changes in your local (git merge).
 
 
-            git pull <remote>
-            
+            git pull 
+
 
     This operation may cause conflicts that you need to solve manually.
 
 
+9. Git revert
+
+    Sometimes we need to undo the changes that we've made. There are various ways to undo our 
+
+    changes locally or remotely (depends on what we need), but we must carefully use these 
+
+    commands to avoid unwanted deletions.
+
+    A safer way that we can undo our commits is by using git revert. 
+
+    To see our commit history, first we need to use 
+    
+            git log -- oneline:
+
+    Then we just need to specify the hash code next to our commit that we would like to undo:  
+
+           eg:    git revert 232323
+
+
+10. Git Merge
+
+    When you've completed development in your branch and everything works fine, 
+    
+    the final step is merging the branch with the parent branch (dev or master).
+
+
+     when you want to merge your feature branch into the dev branch:
+
+        First you should switch to the dev branch:
+
+            git checkout dev
+
+        Before merging, you should update your local dev branch:
+
+            git fetch
+
+        Finally, you can merge your feature branch into dev:
+
+            git merge <branch-name>
 
 
  
