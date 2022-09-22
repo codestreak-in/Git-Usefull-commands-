@@ -7,6 +7,8 @@
             git clone <https://name-of-the-repository-link>
 
 
+
+
 2. Git Branch
 
       Branches are highly important in the git world. By using branches, several developers are able to work in parallel on the same project simultaneously. We can use the git branch command for creating, listing and deleting branches.
@@ -26,6 +28,8 @@
       Deleting a branch in git 
 
           git branch -d <branch-name>
+
+
 
 
 3. Git checkout
@@ -56,6 +60,8 @@
                checks the branch out to new right after it has been created.
 
 
+
+
 4. Git Status
 
       The Git status command gives us all the necessary information about the current branch.
@@ -73,6 +79,8 @@
 
             Whether there are files created, modified or deleted
 
+
+
 5. Git Add
 
     When we create, modify or delete a file, these changes will happen in our local 
@@ -88,6 +96,8 @@
 
       Important: The git add command doesn't change the repository and the changes are not saved until we use git commit.
 
+
+
 6. Git commit
     
      Once we reached a certain point in development, we want to save our changes
@@ -99,6 +109,8 @@
             git commit -m "your commit message"
         
      Important: Git commit saves your changes only locally.
+
+
 
 
 7. Git Push
@@ -116,6 +128,23 @@
             git push -u origin <branch_name>
 
     Important: Git push only uploads changes that are committed.
+
+
+8. Git Pull
+
+    The git pull command is used to get updates from the remote repo
+
+    This command is a combination of git fetch and git merge 
+
+    Which means, when we use git pull, it gets the updates from remote 
+    
+    repository (git fetch) and immediately applies the latest changes in your local (git merge).
+
+
+            git pull <remote>
+            
+
+    This operation may cause conflicts that you need to solve manually.
 
 
 
