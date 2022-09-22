@@ -52,7 +52,8 @@
 
            git checkout -b <name-of-your-branch>
 
-           :- This command creates a new branch in your local (-b stands for branch) and checks the branch out to new right after it has been created.
+           :- This command creates a new branch in your local (-b stands for branch) and 
+               checks the branch out to new right after it has been created.
 
 
 4. Git Status
@@ -61,6 +62,8 @@
 
         git status
 
+        
+
         :- We can gather information like:
 
             Whether the current branch is up to date
@@ -68,7 +71,7 @@
             Whether there is anything to commit, push or pull
 
             Whether there are files staged, unstaged or untracked
-            
+
             Whether there are files created, modified or deleted
 
 
