@@ -47,6 +47,29 @@
         :- The changes in your current branch must be committed or stashed before you switch
 
         :- The branch you want to check out should exist in your local
+    
+      There is also a shortcut command that allows you to create and switch to a branch at the same time:
+
+           git checkout -b <name-of-your-branch>
+
+           :- This command creates a new branch in your local (-b stands for branch) and checks the branch out to new right after it has been created.
+
+
+4. Git Status
+
+      The Git status command gives us all the necessary information about the current branch.
+
+        git status
+
+        :- We can gather information like:
+
+            Whether the current branch is up to date
+
+            Whether there is anything to commit, push or pull
+
+            Whether there are files staged, unstaged or untracked
+            
+            Whether there are files created, modified or deleted
 
 
  
