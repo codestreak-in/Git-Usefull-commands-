@@ -13,13 +13,19 @@
 
       Creating New Branch 
 
-            git branch <"branch-name">
+            git branch <branch-name>
 
       To push the new branch into the remote repository
           
-          git push -u <remote> <branch-name>
+           git push -u <remote> <branch-name>
 
       Viewing branches
 
-         git branch  or  git branch --list
+           git branch  or  git branch --list
+
+      Deleting a branch in git 
+
+          git branch -d <branch-name>
+
+
  
