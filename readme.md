@@ -12,5 +12,10 @@
       Branches are highly important in the git world. By using branches, several developers are able to work in parallel on the same project simultaneously. We can use the git branch command for creating, listing and deleting branches.
 
       Creating New Branch 
-            git branch <branch-name>
+
+            git branch <"branch-name">
+
+      To push the new branch into the remote repository
+          
+          git push -u <remote> <branch-name>
  
