@@ -37,4 +37,16 @@
       We can also use it for checking out files and commits.
 
 
+      To switch to other branch 
+
+            git checkout <name-of-your-branch>
+
+    
+      There are some steps you need to follow for successfully switching between branches:
+
+        :- The changes in your current branch must be committed or stashed before you switch
+
+        :- The branch you want to check out should exist in your local
+
+
  
