@@ -18,4 +18,8 @@
       To push the new branch into the remote repository
           
           git push -u <remote> <branch-name>
+
+      Viewing branches
+
+         git branch  or  git branch --list
  
