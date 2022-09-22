@@ -60,9 +60,8 @@
 
       The Git status command gives us all the necessary information about the current branch.
 
-        git status
+            git status
 
-        
 
         :- We can gather information like:
 
@@ -73,6 +72,21 @@
             Whether there are files staged, unstaged or untracked
 
             Whether there are files created, modified or deleted
+
+5. Git Add
+
+       When we create, modify or delete a file, these changes will happen in our local 
+       and won't be included in the next commit 
+
+       We need to use the git add command to include the changes of a file(s) into our next commit. 
+
+
+            To add a single file:       git add <file>
+
+            To add everything at once:   git add -A
+            
+
+      Important: The git add command doesn't change the repository and the changes are not saved until we use git commit.
 
 
  
