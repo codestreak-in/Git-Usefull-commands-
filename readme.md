@@ -1,4 +1,4 @@
-10 Git Commands Every Developer Should Know
+10 Git Commands Every Software Developer Should Know
 
 1. Git Clone
 
